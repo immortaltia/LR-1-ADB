@@ -73,6 +73,10 @@ public class Deque {
         return front == null;
     }
 
+    public boolean isFull() {
+        return false;
+    }
+
     public void print() {
         if (isEmpty()) {
             System.out.println("Deque is empty");
